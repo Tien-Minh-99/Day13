@@ -9,6 +9,7 @@ public class CameraExample : MonoBehaviour
     void Start()
     {
         mainCamera.backgroundColor = Color.cyan;// đổi màu màn hình camera
+        mainCamera.clearFlags = CameraClearFlags.SolidColor;
     }
 
     // Update is called once per frame
